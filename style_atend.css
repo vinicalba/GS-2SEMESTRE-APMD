@@ -48,20 +48,9 @@ a{
     border-radius: 5px;
 }
 
-#botao{
-    text-align: center;
-}
 
-#volta{
-    background-color: #1a5c37;
-    padding: 5px 20px;
-    border-radius: 5px;
-    margin: 0 .7rem;
-    transition: box-shadow .5s ease-in-out;
-    position: relative;
-    font-family: var(--font);
-    
-}
+
+
 
 img{
     width: 250px;
@@ -96,7 +85,7 @@ img{
 }
 
 #beneficios{
-    width: 40%;
+    width: 59%;
     margin: 20px;
     background-color: white;
     border-radius: 15px;
