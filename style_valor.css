@@ -55,3 +55,24 @@ h2{
     font-weight: bold;
     font-size: 1.8rem;
 }
+
+.cardv{
+    display: inline-block;
+    flex-direction: column;
+    background-color: #1a5c37;
+    width: 220px;
+    border-radius: 6px;
+    margin: .8rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.cardv img{
+    border-radius: 6px;
+    width: 220px;
+}
+
+.cardv p{
+    padding-top: 5px;
+}
