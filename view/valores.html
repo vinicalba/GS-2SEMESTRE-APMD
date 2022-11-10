@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Druber</title>
-    <link rel="stylesheet" href="style_valor.css">
+    <link rel="stylesheet" href="./css/style_valor.css">
 </head>
+
 <body>
     <header>
         <h1 id="prim">DRUBER</h1>
@@ -19,11 +21,10 @@
         </nav>
     </header>
     <h2>Valores</h2>
-    <div class="cardv">
-        <img src="https://www.picxfilmes.com.br/assets/images/palavras-chave/videos-com-drone-em-sp.jpg" alt="poster do filme Sonic 2" id="poster">
-        <p>São Paulo</p>
-        <p style="text-align:center;">Serviço: &#x2B50;9.7</p>
-        <p>Valor: R$ 25 a cada 1 Km.</p>
-    </div>
+    <div id="divPrices"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../model/cidade.js"></script>
+    <script src="../controller/valores.js"></script>
 </body>
+
 </html>
